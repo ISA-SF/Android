@@ -1,21 +1,26 @@
 package com.example.corrutinas.main.presentation.activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.activity.viewModels
-import com.example.corrutinas.R
-import com.example.corrutinas.main.presentation.viewmodel.MainViewModel
+import com.example.corrutinas.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    val viewModel: MainViewModel by viewModels()
+    //val viewModel: MainViewModel by viewModels()
+    private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        //initActions()
+        //initObservers()
+        binding= ActivityMainBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
 
-        initActions()
-        initObservers()
+        binding.imageView.setOnClickListener { var pant2 = Intent(this, login::class.java)
+        startActivity(pant2)}
+
     }
-    private fun initActions(){
+    /*private fun initActions(){
         viewModel.requestData()
     }
 
@@ -25,6 +30,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun handleData( response: String){
 
-    }
+    }*/
 
 }

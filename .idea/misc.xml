@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/moon_/AndroidStudioProjects/Corrutinas/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/moon_/AndroidStudioProjects/Corrutinas/app/src/main/java/com/example/corrutinas/layout/activity_login.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/moon_/AndroidStudioProjects/Corrutinas/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2075" />
+        <entry key="..\:/Users/moon_/AndroidStudioProjects/Corrutinas/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/moon_/AndroidStudioProjects/Corrutinas/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/moon_/AndroidStudioProjects/Corrutinas/app/src/main/res/layout/activity_progress.xml" value="0.25" />
+        <entry key="..\:/Users/moon_/AndroidStudioProjects/Corrutinas/app/src/main/res/layout/formulario.xml" value="0.2" />
+        <entry key="..\:/Users/moon_/AndroidStudioProjects/Corrutinas/app/src/main/res/layout/iniciar.xml" value="0.33" />
       </map>
     </option>
   </component>
